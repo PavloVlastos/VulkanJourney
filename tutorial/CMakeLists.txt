@@ -28,7 +28,7 @@ endif()
 
 add_executable(VulkanTutorial main.cpp)
 
-target_compile_definitions(VulkanTutorial PRIVATE NDEBUG)
+# target_compile_definitions(VulkanTutorial PRIVATE NDEBUG)
 
 target_link_libraries(VulkanTutorial PRIVATE Vulkan::Vulkan glfw)
 
